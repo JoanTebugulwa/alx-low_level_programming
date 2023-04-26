@@ -1,19 +1,20 @@
 #include "main.h"
 /**
- * main: - A program that prints _putchar, followed by a new line
- * written bt Tjoan
+ * main - A program that prints _putchar, followed by a new line
+ * written by Tjoan
  * Return: 0 (Success)
  */
 int main(void)
+
 {
 _putchar('_');
 _putchar('p');
-_putchar('u')
-_putchar('\n');
+_putchar('u');
+_putchar('t');
+_putchar('c');
 _putchar('h');
 _putchar('a');
-_putchar('c');
 _putchar('r');
-_putchar('t');
+_putchar('\n');
 return (0);
 }
