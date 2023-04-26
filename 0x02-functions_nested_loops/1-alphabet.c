@@ -2,16 +2,18 @@
 
 /**
  * print_alphabet - Prints the alphabet, in lower case
+ *
+ * return: Always 0 (success)
  */
-
 void print_alphabet(void)
 
 {
-char letter;
+char l;
 
-for (letter = 'a'; letter <= 'z'; letter++)
-_putchar(lettter);
+for (l = 'a'; l <= 'z'; l++)
+{
+_putchar(l);
+}
 
-_putchar('\n')
-return (0);
+_putchar('\n');
 }
