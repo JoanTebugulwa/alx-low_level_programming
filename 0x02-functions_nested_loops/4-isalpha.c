@@ -6,8 +6,8 @@
  */
 int _isalpha(int k)
 {
-if (((k >= 'a') && (k <= 'z')) || ((k >= 'A') && (k = 'Z')))
-return (1);
-else
-return (0);
+	if (((k >= 'a') && (k <= 'z')) || ((k >= 'A') && (k <= 'Z')))
+		return (1);
+	else
+		return (0);
 }
