@@ -4,17 +4,19 @@
 int _putchar(char c);
 
 /**
- * structure dog - creates profile with name, age, owner elements
+ * struct dog - name, age, owner elements of the dog
  * @name: dog name
- * @age: god age
+ * @age: dog  age
  * @owner: dog owner
  *
- * Description: creates profile withname, age, owner elements
+ * Description: creates profile with name, age, owner elements
  */
 
-typedef struct dog dog_t;
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+};
 
-void init_dog(struct dog *d, char *name, float age, char *owner)
-void print_dog(struct dog *d)
-dog_t *new_dog(char *name, float age, char *owner)
-void free_dog(dog_t *d)
+#endif
