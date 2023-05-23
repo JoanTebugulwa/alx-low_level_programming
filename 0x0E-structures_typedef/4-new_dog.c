@@ -8,7 +8,6 @@
  * @owner: string 'owner'
  * Return: returns a pointer to a struct
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int i = 0, c = 0;
@@ -17,9 +16,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	newDog = malloc(sizeof(dog_t));
 	if (newDog == NULL)
 		return (NULL);
-
 	newDog->age = age;
-
 	for (i = 0, c = 0; name[i] != '\0'; i++)
 		c++;
 	newDog->name = malloc(sizeof(char) * (c + 1));
@@ -28,7 +25,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(newDog);
 		return (NULL);
 	}
-
 	for (i = 0; 1 ; i++)
 	{
 		(*(newDog->name + i)) = name[i];
@@ -50,7 +46,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		if (owner[i] == '\0')
 			break;
 	}
-
 	return (newDog);
 }
 
