@@ -4,7 +4,7 @@
 #include <stddef.h>
 
 /**
- * arrar_iterator -  executes a function given as a parameter
+ * array_iterator -  executes a function given as a parameter
  * on each element of an array.
  * @array: pointer to a name, passed from main file
  * @size: size of the array
