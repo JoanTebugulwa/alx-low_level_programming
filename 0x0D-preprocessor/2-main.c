@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - a programme taht prints a name it was compiled form
- * Return 0 (success)
+ * main - a program that prints a name of the file it was compiled form
+ * Return: returns 0 (success)
  */
 int main(void)
 {
