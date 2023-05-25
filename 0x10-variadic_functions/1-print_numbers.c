@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - writes function taht prints numbers
- * @seperator: string to be printed between numbers
+ * @separator: string to be printed between numbers
  * @n: number of arguments
  * Return: nothing, prints number if seperator is not null
  */
